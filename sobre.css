@@ -1,0 +1,110 @@
+#div_foto_desenvolvedores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+#titulo_desen{
+    color: white;
+    font-family: "Segoe UI Black";
+    font-size: 35px;
+    background-color: black;
+}
+
+#div_links_iniciais{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.links_inical{
+    color: khaki;
+    border: 3px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 1px;
+    font-size: 23px;
+    font-family: serif;
+    font-style: italic;
+
+}
+
+body{
+    top: 0;
+    left: 0;
+    background-image: url("imagens_projeto_dw/body_quadro_matematico.jpg");
+    background-size: cover;
+    backdrop-filter: blur(6px);
+    z-index: -1; /* Para colocar o elemento atrás do conteúdo */
+
+}
+#div_wallace{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#div_pedro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#div_sobre_nos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.dados_nos{
+    color: white;
+    font-family: "Arial Narrow";
+    font-size: 15px;
+    background-color: black;
+}
+
+#div_jonata{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#div_sobre_nos_2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+#div_davi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#div_mario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#div_generoso{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+b{color: white}
+
+
+

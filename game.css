@@ -1,0 +1,63 @@
+/* Carrega a fonte personalizada no site, assim ela pode ser chamada pelo nome em qualquer parte do código */
+@font-face {
+    font-family: 'Font_giz';
+    unicode-range: U+000-5FF;
+    src: local('Font_giz'), url("rudiment-font/Rudiment-0gwP.woff2") format('woff2');
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("imagens/fundo_body.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+canvas{
+    position: relative;
+    top: 5vh;
+    border: 1px solid black;
+    background-image: url("imagens/lousa.jpg");
+    background-size:720px 480px;
+    border-radius: 4pt;
+    z-index: 0;
+    cursor: url(imagens/cursor.png), pointer;
+}
+
+input {
+    top: 50pt;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 400px;
+    z-index: -90;
+    color: white;
+    font-family: Font_giz;
+}
+
+
+#div_links_iniciais{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.links_inical{
+    color: black;
+    border: 3px solid black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 1px;
+    font-size: 30px;
+    font-family: "Cooper Black";
+    font-style: italic;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}

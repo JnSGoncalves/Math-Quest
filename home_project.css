@@ -1,0 +1,243 @@
+#div_links_iniciais{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.links_inical{
+    color: khaki;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+    background-color: black;
+    border: 3px solid white;
+}
+
+#div_paragrafo_explicando_jogo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#primeiro_paragrafo_explicando_jogo, #segundo_paragrafo_explicando_jogo {
+    text-align: justify; /* Justificar o texto */
+    margin: 10px 12px; /* Adicionar espaço entre os parágrafos */
+    display: inline-block; /* Colocar os parágrafos lado a lado */
+    vertical-align: top; /* Alinhar os parágrafos no topo */
+    width: 33%; /* Definir a largura dos parágrafos para cerca de metade do contêiner pai */
+}
+
+#primeiro_paragrafo_explicando_jogo{
+    background-image: url("imagens_projeto_dw/post_it_amarelo.jpg");
+    background-size: cover;
+    width: 350px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    font-family: "Segoe UI Black";
+    font-style: oblique;
+    line-height: 2.0
+}
+
+
+#segundo_paragrafo_explicando_jogo{
+    background-image: url("imagens_projeto_dw/post_it_amarelo.jpg");
+    background-size: cover;
+    width: 350px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    font-family: "Segoe UI Black";
+    font-style: oblique;
+    line-height: 2.0
+}
+
+#div_titulo_primeiro_paragrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+
+#titulo_primeiro_paragrafo{
+    color: black;
+    font-family: roboto;
+    font-size: 23px;
+    width: 380px;
+    background-color: springgreen;
+    padding-left: 70px;
+}
+
+body {
+    background-image: url("imagens_projeto_dw/body_fundo_materiais.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(7px);
+    z-index: -1; /* Para colocar o elemento atrás do conteúdo */
+}
+
+#titulo_2{
+    color: black;
+    font-family: roboto;
+    font-size: 23px;
+    width: 380px;
+    background-color: springgreen;
+    padding-left: 150px;
+}
+
+#div_titulo_2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+#div_regras_do_jogo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    position: relative;
+}
+
+#primeiro_p_regra_jogo, #segundo_p_regra_jogo{
+    text-align: justify; /* Justificar o texto */
+    margin: 5px 5px; /* Adicionar espaço entre os parágrafos */
+    display: inline-block; /* Colocar os parágrafos lado a lado */
+    vertical-align: top; /* Alinhar os parágrafos no topo */
+    width: 33%; /* Definir a largura dos parágrafos para cerca de metade do contêiner pai */
+}
+
+#primeiro_p_regra_jogo{
+    background-image: url("imagens_projeto_dw/post_it_azul.jpg");
+    background-size: cover;
+    width: 350px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    font-family: "Segoe UI Black";
+    font-style: oblique;
+    line-height: 2.0
+}
+
+#segundo_p_regra_jogo{
+    background-image: url("imagens_projeto_dw/post_it_azul.jpg");
+    background-size: cover;
+    width: 350px;
+
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    font-family: "Segoe UI Black";
+    font-style: oblique;
+    line-height: 2.0;
+
+}
+
+#marca_texto_verde{
+    position: relative;
+    top: -25px;
+    left: -26px;
+}
+
+#marca_texto_verde_p2{
+    height: 60px;
+    width: 60px;
+
+}
+
+
+#div_titulo_regras_matematicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+
+}
+
+#titulo_regras_matematicas{
+    color: black;
+    font-family: roboto;
+    font-size: 23px;
+    width: 430px;
+    background-color: springgreen;
+    padding-left: 70px;
+}
+
+#marca_texto_verde_3{
+    position: relative;
+    top: -25px;
+    left: -26px;
+}
+
+#primeiro_p_regras_matemáticas, #segundo_p_regras_matematicas{
+    text-align: justify; /* Justificar o texto */
+    margin: 5px 5px; /* Adicionar espaço entre os parágrafos */
+    display: inline-block; /* Colocar os parágrafos lado a lado */
+    vertical-align: top; /* Alinhar os parágrafos no topo */
+    width: 33%; /* Definir a largura dos parágrafos para cerca de metade do contêiner pai */
+}
+
+
+#primeiro_p_regras_matemáticas{
+    background-image: url("imagens_projeto_dw/post_it_roxo.png");
+    background-size: cover;
+    width: 380px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    font-family: "Segoe UI Black";
+    font-style: oblique;
+    line-height: 2.0
+}
+
+#segundo_p_regras_matematicas{
+    background-image: url("imagens_projeto_dw/post_it_roxo.png");
+    background-size: cover;
+    width: 380px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    font-family: "Segoe UI Black";
+    font-style: oblique;
+    line-height: 2.0
+
+}
+
+#div_regras_matematicas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#p_regras_divisão{
+    background-image: url("imagens_projeto_dw/post_it_roxo.png");
+    background-size: cover;
+    width: 380px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    font-family: "Segoe UI Black";
+    font-style: oblique;
+    line-height: 2.0
+}
+
+#div_regras_matematica_divisao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
