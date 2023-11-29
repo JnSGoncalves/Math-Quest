@@ -1,1 +1,1 @@
-# https://jota-721.github.io/Math-Quest.github.io/
+# https://jota-721.github.io/Math-Quest/
